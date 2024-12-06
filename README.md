@@ -1,76 +1,62 @@
-[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
-[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
+# **Login e Cadastro - Aplicação Completa**
 
-<h1 align="center" style="font-weight: bold;">Login Page example in Angular 💻</h1>
+---
 
-![angular][ANGULAR__BADGE]
-![typescript][TYPESCRIPT__BADGE]
+## **Descrição do Projeto**  
+Este projeto é um sistema de Login e Cadastro composto por duas partes:  
+1. **Front-end:** Desenvolvido em **Angular** para a interface do usuário.  
+2. **Back-end:** Criado com **Java**, utilizando **Spring Boot**, **Spring Security** e **JWT (JSON Web Token)** para autenticação e autorização.  
 
-<p align="center">
- <a href="#about">About</a> • 
- <a href="#started">Getting Started</a> • 
-  <a href="#started">App Routes</a> • 
-  <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
-</p>
+O objetivo principal foi estudar e aplicar conceitos de **Angular** e **Spring Boot**, com base nos vídeos tutoriais da [Fernanda Kipper](https://www.youtube.com/@kipperdev).  
 
+---
 
-<p align="center">
-    <img src="./.github/login.png" alt="Image Example" width="400px">
-</p>
+## **Funcionalidades do Sistema**  
+- **Front-end:**
+  - Interface responsiva para cadastro e login de usuários.
+  - Integração com a API backend para autenticação.  
 
-<h2 id="started">📌 About</h2>
+- **Back-end:**
+  - Cadastro de usuários com persistência no banco de dados.
+  - Login com geração de tokens JWT.
+  - Controle de acesso baseado em permissões utilizando JWT.
 
-This project is a simple Login and Sign Up app that I developed while studying Angular concepts using [my youtube video](https://youtu.be/6qbuuPM_de4). The video was incredibly helpful in understanding how to create Angular apps with authentication and integrate them with a backend.
+---
 
-<h2 id="started">🚀 Getting started</h2>
+## **Tecnologias Utilizadas**  
 
-Here you describe how to run your project locally
+### **Front-end:**
+- **Angular**  
+- **TypeScript**  
+- **HTML5**  
+- **CSS3**  
+- **Bootstrap**
 
-<h3>Prerequisites</h3>
+### **Back-end:**
+- **Java 17**  
+- **Spring Boot**  
+- **Spring Security**  
+- **JWT (JSON Web Token)**  
+- **Hibernate**  
 
-Here you list all prerequisites necessary for running your project. For example:
+---
 
-- [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
-- [Angular CLI](https://angular.io/cli)
+## **Como Executar o Projeto**  
 
-<h3>Cloning</h3>
+### **Front-end**
+[Detalhes no README do Front-end](/Front-end/README.md)
 
-How to clone your project
+### **Back-end**
+[Detalhes no README do back-end](/Back-end/README.md)
 
-```bash
-git clone https://github.com/Fernanda-Kipper/login-page.git
-```
+## **Contribuição**
+1. Faça um fork do projeto.
+2. Crie uma branch para sua funcionalidade/correção.
+3. Envie um pull request.
 
-<h3>Starting</h3>
+## **Licença**
+Este projeto está sob a licença MIT.
 
-How to start your project
-
-```bash
-cd project-name
-npm run start
-```
-
-<h2 id="routes">📍 Application Routes</h2>
-
-Here you can list the main routes of your API, and what are their expected request bodies.
-​
-| route               | description                                          
-|----------------------|-----------------------------------------------------
-| <kbd>/signup</kbd>     | Page to sign up
-| <kbd>/login</kbd>     | Page to login
-| <kbd>/user</kbd>     | Protected page that only logged in users can access
-
-<h2 id="contribute">📫 Contribute</h2>
-
-1. `git clone https://github.com/Fernanda-Kipper/text-editor.git`
-2. `git checkout -b feature/NAME`
-3. Follow commit patterns
-4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
-
-<h3>Documentations that might help</h3>
-
-[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
-
-[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+## **Autor**
+Desenvolvido como parte de um estudo de Angular e Spring Boot, utilizando vídeos tutoriais para apoio.
+Os vídeos e código são da autoria de [Fernanda Kipper](https://www.youtube.com/@kipperdev)
